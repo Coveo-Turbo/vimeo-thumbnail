@@ -36,7 +36,7 @@ export class VimeoThumbnail extends Component {
     this.loadComponents().then( function () {
 
     _this.resultLink = $$('a', {
-      className: Component.computeCssClassName(ResultLink)
+      className: 'CoveoResultLink'//ResultLink.computeCssClassName(ResultLink)//Component.computeCssClassName(ResultLink)
     });
 
     if (!origin) {
@@ -124,9 +124,9 @@ export class VimeoThumbnail extends Component {
     });
     
 
-    $$($$(this.modalbox.wrapper).find('.coveo-quickview-close-button')).on('click', () => {
+    /*$$($$(this.modalbox.wrapper).find('.coveo-quickview-close-button')).on('click', () => {
       this.modalbox.close();
-    });
+    });*/
   }
 
   public extractVideoId() {
