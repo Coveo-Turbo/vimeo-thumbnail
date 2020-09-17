@@ -1,6 +1,6 @@
 {
     "name": "@coveops/vimeo-thumbnail",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Vimeo Thumbnail with its own modal preview box",
     "main": "dist/index.js",
     "scripts": {
